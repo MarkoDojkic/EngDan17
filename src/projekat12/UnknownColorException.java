@@ -4,7 +4,7 @@ public class UnknownColorException extends RuntimeException {
 
 	private static final long serialVersionUID = 3330162176876580627L;
 	
-	public UnknownColorException(String unknownColor) {
-		super(unknownColor + " doesn't exists");
+	public UnknownColorException(String errorMessage) {
+		super(errorMessage);
 	}
 }
